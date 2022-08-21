@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="ist_logo">
+    <file>ist_logo.png</file>
+  </qresource>
+  <qresource prefix="pieces">
+    <file>images for pieces/kill_move.png</file>
+    <file>images for pieces/possible_move.png</file>
+    <file>images for pieces/black-removebg-preview(1).png</file>
+    <file>images for pieces/king_balack-removebg-preview.png</file>
+    <file>images for pieces/king-removebg-preview.png</file>
+    <file>images for pieces/white-removebg-preview.png</file>
+  </qresource>
+  <qresource prefix="main_menu_background">
+    <file>1036609-sports-symmetry-chess-shape-recreation-games-indoor-games-and-sports-board-game-tabletop-game-chessboard-english-draughts.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aboutDialog</class>
+ <widget class="QDialog" name="aboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>531</width>
+    <height>331</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>531</width>
+    <height>331</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/ist_logo/ist_logo.png</normalon>
+   </iconset>
+  </property>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/ist_logo/ist_logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>531</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>531</width>
+     <height>331</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>531</width>
+     <height>331</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/main_menu_background/1036609-sports-symmetry-chess-shape-recreation-games-indoor-games-and-sports-board-game-tabletop-game-chessboard-english-draughts.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeAboutButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>270</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Reference Sans Serif</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>404</width>
+     <height>240</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Reference Sans Serif</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Checkers, written in Python 3.10 and 
+Pyside6, it's a demo project made to 
+demonstrate knowledge of OOP and
+fundamentals of programming for CS-02A
+class of 2021 IST
+
+Credits:
+Siraj Ahmed (group leader),
+Waleed Malik,
+Shahab Ahmed</string>
+   </property>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>label_6</zorder>
+  <zorder>closeAboutButton</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>closeAboutButton</sender>
+   <signal>clicked()</signal>
+   <receiver>aboutDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>262</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
